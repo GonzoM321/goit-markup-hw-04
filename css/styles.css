@@ -1193,7 +1193,8 @@ justify-content: center;
 }
 
 .my-socials-icon{
-  fill: currentColor; 
+  fill: currentColor;
+  display: flex; 
 }
 
 .my-customers-list{
