@@ -1143,11 +1143,13 @@ border-radius: 4px;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 30px;
 }
 
 .my-social-list{
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 
@@ -1155,16 +1157,33 @@ justify-content: center;
   margin-right: 10px;
 }
 
+.my-social-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-social-item:not(:last-child){
+  margin: 10px;
+}
+
 .my-socials-link{
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: #AFB1B8;
-  margin-right: 10px; 
+  color: #AFB1B8; 
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-social-list{
+  display: flex;
+}
+
+.footer-social-item:not(:last-child){
+  margin-right: 10px;
 }
 
 .footer-socials-link{
