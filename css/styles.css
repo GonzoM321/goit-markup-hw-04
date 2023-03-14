@@ -99,7 +99,8 @@ margin-right: 50px;
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block;
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 
@@ -399,7 +400,7 @@ margin-right: 50px;
   line-height: 15px;
 }
 
-.team-list{
+.our-team-list{
   display: flex;
 }
 
@@ -1164,7 +1165,7 @@ margin-bottom: 30px;
 }
 
 .my-social-item:not(:last-child){
-  margin: 10px;
+  margin-right: 10px;
 }
 
 .my-socials-link{
@@ -1180,11 +1181,12 @@ margin-bottom: 30px;
 
 .footer-social-list{
   display: flex;
+  margin-top: 20px;
 }
 
-.footer-social-item:not(:last-child){
+/*.footer-social-item:not(:last-child){
   margin-right: 10px;
-}
+}*/
 
 .footer-socials-link{
   width: 44px;
